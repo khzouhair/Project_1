@@ -1,0 +1,241 @@
+/*.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}*/
+img{
+  width: 100%;
+  height: 400px; 
+}
+.divnum{
+  width: 100%;
+  height: 100%;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.premier{
+  width: 100%;
+  height: 10px;
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
+.ul1 li {
+  margin: 0px 15px 0px 15px;
+  display: inline; 
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(226, 91, 42);
+}
+.container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.image1{
+  display: flex;
+  width: 100%;
+  height: 100%; 
+  gap: 10px;
+}
+footer,.foot1,.foot2{
+  margin: 0%;
+  padding: 0%;
+}
+footer{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+h3{
+  padding: 50px;
+}
+.foot1 label{
+  margin-left: 0px;
+  padding-left: 0px;
+  padding: 50px;
+}
+.foot1 input{
+  border: none;
+  background-color: rgb(248, 236, 219);
+}
+form{
+  margin: 0px 20px 5px 0px;
+}
+
+.foot1{
+  text-align: center;
+  width: 100%;
+  height: 90%;
+  background-color: rgb(248, 236, 219);
+}
+.foot2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  background-color:  rgb(226, 91, 42);
+}
+.div4{
+  background-color: white;
+  width: 100%;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+.towwords{
+  background-color: rgb(226, 91, 42);
+  padding: 10px;
+  margin-left: 15%;
+  text-align: center;
+  color: white;
+  align-self: flex-start;
+  /*position: absolute;
+  /*top: 100%;
+  left: 25%;*/
+  
+}
+
+.div2 p,.div5 p,.div7 p{
+  position: absolute;
+  right: 0%;
+  top:30%;
+  width: 48%;
+}
+.div10{
+  background-color:/*rgb(223, 128, 5)*/ rgb(226, 91, 42) ;
+  margin-top: 50px;
+  width: 60%;
+  height:300px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comme10 img{
+  width: 100%;
+  height: 100%;
+}
+.comme10{
+  background-color:rgb(248, 236, 219) ;
+  margin-top: 10px;
+  width: 60%;
+  height:400px; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap:3px;
+}
+.suis{
+  padding-top: 10px;
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+}
+input{
+  border: none;
+  background-color:  rgb(226, 91, 42);
+}
+button{
+  color:  rgb(226, 91, 42);
+  border-color: white;
+  background-color: white;
+  width: 50%;
+  height: 25px;
+}
+.foot1 button{
+  background-color: rgb(226, 91, 42);
+  padding: 15px 20px 30px 20px;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 5px white;
+}
+.foot2 p{
+  width: 50%;
+  padding-top: 10px;
+  text-align: center;
+}
+.line2{
+  width: 30%;
+  height:2px;
+  background-color: black;
+  position: absolute;
+  left: 35%;
+}
+.line{
+  width: 70%;
+  height: 3px;
+  background-color: white;
+}
+.actu{
+  /*padding-top: 20px;*/
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+}
+.div9{
+  flex-direction: column; 
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 15%;
+  background-color:rgb(248, 236, 219) ;
+  width: 30%;
+  height: 930px;
+  margin-bottom: 10px;
+}
+.div2,.div5,.div7{
+  box-shadow: 1px 1px 10px rgb(233, 231, 231);
+  margin-left: 15%;
+  align-self: flex-start;
+  position: relative;
+  width: 30%;
+  height:250px ;
+  background-color: white;
+}
+.div3,.div6,.div8{
+ /* position: relative;*/
+  width: 48%;
+  height: 100%;
+  background-color: rgb(248, 236, 219);
+}
+
+.div1{
+  width: 100%;
+  height: 400px; 
+  background-color: /*rgb(223, 128, 5)*/rgb(243, 164, 135);
+}
+.blog{
+  text-transform: capitalize;
+  font-size: large;
+  padding: 10px;
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  right: 40%;
+  top:430px;
+}
+
