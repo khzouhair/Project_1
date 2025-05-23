@@ -1,4 +1,8 @@
 # Project_1:Bleu Céleste Website
+
+## 🌐 Live Demo
+👉 [Try the chatbot here](https://khzouhair.github.io/Web_Chatbot/)
+
 ![Capture23](https://github.com/user-attachments/assets/6ab0109b-1781-4f9c-a6b2-cca09c548f3f)
 ## Description
 
